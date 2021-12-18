@@ -15,7 +15,7 @@
   "dependencies": {
     "q": "1.4.1",
     "artifact-engine": "0.1.29",
-    "azure-storage": "2.2.1",
+    "azure-storage": "2.10.6",
     "azure-pipelines-task-lib": "2.8.0"
   },
   "devDependencies": {
