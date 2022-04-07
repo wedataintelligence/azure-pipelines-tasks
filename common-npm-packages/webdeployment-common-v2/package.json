@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/Microsoft/azure-pipelines-tasks#readme",
   "dependencies": {
-    "archiver": "1.2.0",
+    "archiver": "4.0.2",
     "decompress-zip": "0.3.0",
     "ltx": "2.8.0",
     "q": "1.4.1",
