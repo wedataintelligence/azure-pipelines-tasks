@@ -19,7 +19,7 @@
   "dependencies": {
     "@types/node": "6.0.68",
     "@types/q": "1.0.7",
-    "archiver": "1.2.0",
+    "archiver": "4.0.2",
     "azure-pipelines-task-lib": "2.8.0",
     "azure-pipelines-tasks-azure-arm-rest-v2": "1.0.4",
     "azure-pipelines-tasks-docker-common-v2": "1.0.0",
