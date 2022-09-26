@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - appcenter-cli > lodash:
+        patched: '2022-09-26T08:48:44.579Z'
+    - appcenter-cli > inquirer > lodash:
+        patched: '2022-09-26T08:48:44.579Z'
