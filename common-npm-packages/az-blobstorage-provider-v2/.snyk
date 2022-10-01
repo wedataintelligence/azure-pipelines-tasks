@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - artifact-engine > handlebars > async > lodash:
+        patched: '2022-10-01T19:11:46.860Z'
+    - azure-storage > request > form-data > async > lodash:
+        patched: '2022-10-01T19:11:46.860Z'
