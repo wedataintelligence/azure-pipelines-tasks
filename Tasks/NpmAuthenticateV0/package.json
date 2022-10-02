@@ -4,7 +4,9 @@
   "description": "Azure Pipelines npm Authenticate Task",
   "main": "npmauth.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,9 @@
   },
   "homepage": "https://github.com/Microsoft/azure-pipelines-tasks#readme",
   "dependencies": {
-    "azure-pipelines-task-lib": "2.8.0",
-    "packaging-common": "file:../../_build/Tasks/Common/packaging-common-1.0.1.tgz"
-  }
+    "azure-pipelines-task-lib": "3.1.0",
+    "packaging-common": "file:../../_build/Tasks/Common/packaging-common-1.0.1.tgz",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
