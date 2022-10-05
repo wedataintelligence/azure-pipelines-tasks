@@ -4,7 +4,9 @@
   "description": "Azure Pipelines Web App on Container Deployment",
   "main": "AzureRmWebAppDeployment.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -21,9 +23,11 @@
     "@types/node": "6.0.68",
     "@types/q": "1.0.7",
     "azurermdeploycommon": "file:../../_build/Tasks/Common/azurermdeploycommon-1.1.0.tgz",
-    "moment": "2.21.0",
+    "moment": "2.29.4",
     "q": "1.4.1",
     "uuid": "3.1.0",
-    "xml2js": "0.4.13"
-  }
+    "xml2js": "0.4.13",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
