@@ -4,7 +4,9 @@
   "description": "Azure Pipelines Azure RM App Service Deployment",
   "main": "AzureRmWebAppDeployment.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -21,14 +23,16 @@
     "@types/node": "6.0.68",
     "@types/q": "1.0.7",
     "archiver": "1.2.0",
-    "azure-pipelines-tasks-azure-arm-rest-v2": "1.0.4",
-    "decompress-zip": "0.3.0",
+    "azure-pipelines-tasks-azure-arm-rest-v2": "2.208.0",
+    "decompress-zip": "0.3.2",
     "ltx": "2.8.0",
-    "moment": "2.21.0",
+    "moment": "2.29.4",
     "q": "1.4.1",
     "uuid": "3.1.0",
-    "azure-pipelines-task-lib": "2.9.3",
+    "azure-pipelines-task-lib": "3.1.0",
     "winreg": "1.2.2",
-    "xml2js": "0.4.13"
-  }
+    "xml2js": "0.4.13",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
