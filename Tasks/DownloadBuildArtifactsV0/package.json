@@ -4,7 +4,9 @@
   "description": "Download Build Artifacts Task",
   "main": "download.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,12 @@
   },
   "homepage": "https://github.com/Microsoft/azure-pipelines-tasks#readme",
   "dependencies": {
-    "azure-pipelines-task-lib": "2.8.0",
-    "azure-devops-node-api": "7.2.0",
-    "artifact-engine": "0.1.29",
+    "azure-pipelines-task-lib": "3.1.0",
+    "azure-devops-node-api": "10.2.2",
+    "artifact-engine": "1.0.0",
     "@types/node": "^6.0.101",
-    "decompress-zip": "0.3.0"
-  }
+    "decompress-zip": "0.3.2",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
