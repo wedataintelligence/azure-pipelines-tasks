@@ -4,7 +4,9 @@
   "description": "Visual Studio App Center Test Task",
   "main": "appcentertest.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -18,8 +20,10 @@
   "homepage": "https://github.com/Microsoft/azure-pipelines-tasks",
   "dependencies": {
     "glob": "^7.0.6",
-    "appcenter-cli": "^1.1.15",
-    "vso-node-api": "^6.2.2-preview",
-    "vsts-task-lib": "2.0.5"
-  }
+    "appcenter-cli": "^2.11.0",
+    "vso-node-api": "^6.3.2",
+    "vsts-task-lib": "2.0.5",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
