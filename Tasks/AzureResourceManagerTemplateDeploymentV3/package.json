@@ -2,13 +2,19 @@
   "name": "AzureResourceManagerTemplateDeployment",
   "main": "main.js",
   "dependencies": {
-    "azure-pipelines-tasks-azure-arm-rest-v2": "1.178.1",
-    "azure-pipelines-task-lib": "^3.0.6-preview.0",
-    "moment": "2.21.0",
-    "typed-rest-client": "1.7.3",
-    "@types/node": "^10.17.0"
+    "azure-pipelines-tasks-azure-arm-rest-v2": "2.208.0",
+    "azure-pipelines-task-lib": "^3.1.0",
+    "moment": "2.29.4",
+    "typed-rest-client": "1.8.4",
+    "@types/node": "^10.17.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "typescript": "4.0.2"
-  }
+  },
+  "scripts": {
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
