@@ -4,7 +4,9 @@
   "description": "Azure Pipelines Azure WebApp Slot Swap",
   "main": "azurewebappslotswap.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -20,9 +22,11 @@
     "@types/mocha": "2.2.48",
     "@types/node": "6.0.68",
     "@types/q": "1.0.7",
-    "azure-pipelines-tasks-azure-arm-rest-v2": "1.0.4",
+    "azure-pipelines-tasks-azure-arm-rest-v2": "2.208.0",
     "q": "1.4.1",
     "utility-common-v2": "file:../../_build/Tasks/Common/utility-common-v2-2.0.0.tgz",
-    "xml2js": "0.4.13"
-  }
+    "xml2js": "0.4.13",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
