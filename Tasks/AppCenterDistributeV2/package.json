@@ -4,7 +4,9 @@
   "description": "Visual Studio App Center Distribute Task",
   "main": "appcenterdistribute.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,11 @@
   "homepage": "https://github.com/Microsoft/azure-pipelines-tasks",
   "dependencies": {
     "appcenter-file-upload-client-node": "1.0.0",
-    "azure-storage": "^2.10.3",
-    "jszip": "^3.1.2",
-    "request": "2.87.0",
-    "vsts-task-lib": "2.0.5"
-  }
+    "azure-storage": "^2.10.6",
+    "jszip": "^3.7.0",
+    "request": "2.88.0",
+    "vsts-task-lib": "2.0.5",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
