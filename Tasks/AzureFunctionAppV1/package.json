@@ -4,7 +4,9 @@
   "description": "Azure Pipelines Azure Function Deployment",
   "main": "azurermWebappdeployment.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -20,11 +22,13 @@
     "@types/mocha": "2.2.48",
     "@types/node": "6.0.68",
     "@types/q": "1.0.7",
-    "azure-storage": "2.2.1",
+    "azure-storage": "2.10.6",
     "azurermdeploycommon": "file:../../_build/Tasks/Common/azurermdeploycommon-1.1.0.tgz",
-    "moment": "2.21.0",
+    "moment": "2.29.4",
     "q": "1.4.1",
     "uuid": "3.1.0",
-    "xml2js": "0.4.13"
-  }
+    "xml2js": "0.4.13",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
