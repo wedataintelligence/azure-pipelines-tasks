@@ -17,9 +17,9 @@
     "@types/q": "^1.0.7",
     "@types/node": "^10.17.0",
     "@types/mocha": "^5.2.7",
-    "azure-pipelines-task-lib": "^3.0.6-preview.0",
+    "azure-pipelines-task-lib": "^3.3.1",
     "collections": "3.0.0",
-    "minimatch": "^3.0.4"
+    "minimatch": "^3.0.5"
   },
   "devDependencies": {
     "typescript": "4.0.2"
