@@ -23,6 +23,6 @@
     "azure-pipelines-tasks-azure-arm-rest-v2": "1.0.4",
     "q": "1.4.1",
     "utility-common-v2": "file:../../_build/Tasks/Common/utility-common-v2-2.0.0.tgz",
-    "xml2js": "0.4.13"
+    "xml2js": "0.5.0"
   }
 }
