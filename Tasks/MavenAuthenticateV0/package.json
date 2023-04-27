@@ -19,7 +19,7 @@
   "dependencies": {
     "@types/node": "10.12.9",
     "@types/q": "^1.5.2",
-    "azure-pipelines-tasks-artifacts-common": "1.0.1",
+    "azure-pipelines-tasks-artifacts-common": "1.179.0",
     "azure-pipelines-task-lib": "^2.8.0",
     "fs-extra": "^0.30.0",
     "strip-bom": "^3.0.0",
