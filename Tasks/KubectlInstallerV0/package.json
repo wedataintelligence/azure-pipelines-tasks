@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "azure-pipelines-task-lib": "2.8.0",
-    "azure-pipelines-tool-lib": "0.11.0",
-    "azure-pipelines-tasks-kubernetes-common-v2": "1.0.1"
+    "azure-pipelines-tool-lib": "0.13.2",
+    "azure-pipelines-tasks-kubernetes-common-v2": "2.0.1"
   }
 }
