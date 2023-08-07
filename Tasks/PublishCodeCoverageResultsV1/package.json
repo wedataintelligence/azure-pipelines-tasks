@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "azure-pipelines-task-lib": "2.8.0",
-    "azure-pipelines-tasks-codecoverage-tools": "1.0.0"
+    "azure-pipelines-tasks-codecoverage-tools": "3.226.0"
   }
 }
