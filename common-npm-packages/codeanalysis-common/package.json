@@ -8,7 +8,7 @@
     "url": "https://github.com/Microsoft/vso-agent-tasks/issues"
   },
   "dependencies": {
-    "azure-pipelines-task-lib": "^2.8.0",
+    "azure-pipelines-task-lib": "^4.7.0",
     "fs-extra": "^0.30.0",
     "request": "^2.74.0",
     "glob": "7.1.0",
