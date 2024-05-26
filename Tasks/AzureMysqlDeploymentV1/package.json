@@ -31,6 +31,6 @@
     "tar-stream": "1.5.2",
     "webdeployment-common-v2": "file:../../_build/Tasks/Common/webdeployment-common-v2-2.0.0.tgz",
     "winreg": "1.2.2",
-    "zip-stream": "1.1.0"
+    "zip-stream": "6.0.0"
   }
 }
