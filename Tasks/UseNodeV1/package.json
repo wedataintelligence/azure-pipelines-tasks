@@ -30,7 +30,7 @@
     "azure-pipelines-tasks-utility-common": "^3.0.0-preview.0",
     "azure-pipelines-tool-lib": "^1.0.0-preview.0",
     "packaging-common": "file:../../_build/Tasks/Common/packaging-common-1.0.1.tgz",
-    "typed-rest-client": "^1.1.2"
+    "typed-rest-client": "^2.0.0"
   },
   "devDependencies": {
     "typescript": "4.0.2"
