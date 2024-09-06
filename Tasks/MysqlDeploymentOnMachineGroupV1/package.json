@@ -20,14 +20,14 @@
     "@types/mocha": "2.2.48",
     "@types/node": "6.0.68",
     "@types/q": "1.0.7",
-    "azure-pipelines-task-lib": "2.8.0",
+    "azure-pipelines-task-lib": "4.16.0",
     "compress-commons": "1.1.0",
     "crc32-stream": "1.0.0",
     "normalize-path": "2.0.1",
     "q": "1.4.1",
-    "tar-stream": "1.5.2",
+    "tar-stream": "2.1.4",
     "webdeployment-common-v2": "file:../../_build/Tasks/Common/webdeployment-common-v2-2.0.0.tgz",
     "winreg": "1.2.2",
-    "zip-stream": "1.1.0"
+    "zip-stream": "2.0.1"
   }
 }
