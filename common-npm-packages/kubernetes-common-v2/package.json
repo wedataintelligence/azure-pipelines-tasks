@@ -18,7 +18,7 @@
     "@types/uuid": "8.3.0",
     "azure-pipelines-task-lib": "^3.0.6-preview.0",
     "azure-pipelines-tool-lib": "1.0.0-preview.0",
-    "js-yaml": "3.6.1"
+    "js-yaml": "4.1.1"
   },
   "devDependencies": {
     "typescript": "4.0.2",
